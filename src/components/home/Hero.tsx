@@ -7,9 +7,9 @@ import { openWhatsApp } from "@/lib/whatsapp";
 
 const bgImages = [
   // [Hero Image - resort estate, cottages & pool at golden hour]
-  "/images/1.png",
   "/images/a.png",
-  "/images/w.jpeg"
+  "/images/w.jpeg",
+  "/images/1.png"
 ];
 
 export function Hero() {

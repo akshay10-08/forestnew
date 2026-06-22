@@ -127,7 +127,7 @@ export function CottagesShowcase() {
                   ))}
                 </div>
                 
-                <div className="mt-auto flex items-center gap-4 border-t border-[var(--color-gold)]/20 pt-6">
+                <div className="mt-auto flex flex-col sm:flex-row items-stretch sm:items-center gap-4 border-t border-[var(--color-gold)]/20 pt-6">
                   <button 
                     onClick={() => openWhatsApp(`Hello Royal Forest Resort,\n\nI'd like to book the ${cottage.name}.\n\nCheck-in: \nCheck-out: \nGuests: \n\nThank you.`)}
                     className="flex-1 uppercase text-xs tracking-widest px-6 py-3.5 rounded-xl bg-[var(--color-gold)] text-white hover:bg-[var(--color-gold-soft)] hover:text-[var(--color-forest)] transition-colors shadow-md text-center font-semibold">

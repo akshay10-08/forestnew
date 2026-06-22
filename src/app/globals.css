@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #F6F2E8;
+  --color-cream: #FBF8F0;
+  --color-forest: #16301F;
+  --color-forest-700: #234A33;
+  --color-moss: #7E9070;
+  --color-bark: #5B4636;
+  --color-gold: #C2A24E;
+  --color-gold-soft: #E4CE9E;
+  --color-charcoal: #1A1A15;
+  --color-muted: #6A6A5E;
+
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-cormorant);
+}
+
+html {
+  font-size: 12px; /* Scales down the entire layout since Tailwind uses rems */
+}
+
+:root {
+  --background: var(--color-ivory);
+  --foreground: var(--color-charcoal);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+@utility text-shadow-hero {
+  text-shadow: 0 2px 24px rgba(0,0,0,.45);
+}
+
+@utility text-shadow-gold {
+  text-shadow: 0 2px 18px rgba(0,0,0,.45);
+}

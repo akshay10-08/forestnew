@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://royalforestresort.com
+
+# Sitemaps
+Sitemap: https://royalforestresort.com/sitemap.xml

@@ -22,7 +22,7 @@ export default function DiningPage() {
       </div>
 
       <div className="w-full h-[50vh] md:h-[60vh] relative mb-24">
-        <Placeholder src="/images/2.png" label="Grand Dining / Banquet Setup" ratio="21/9" className="w-full h-full object-cover" />
+        <Placeholder src="/images/2.png" label="Grand Outdoor Dining Setup" ratio="21/9" className="w-full h-full object-cover" />
       </div>
 
       <div className="max-w-[1240px] mx-auto px-6 w-full pb-24 grid grid-cols-1 md:grid-cols-2 gap-16">
@@ -32,7 +32,6 @@ export default function DiningPage() {
             For our staying guests, we offer a curated menu of Indian, Continental, and Oriental cuisines. Enjoy your meals by the poolside, in the comfort of your cottage, or at our dedicated dining areas.
           </p>
           <ul className="space-y-4 text-sm text-[var(--color-muted)] mb-8">
-            <li className="flex items-center before:content-['·'] before:mr-3 before:text-[var(--color-gold)] before:text-2xl">Breakfast Buffets</li>
             <li className="flex items-center before:content-['·'] before:mr-3 before:text-[var(--color-gold)] before:text-2xl">A La Carte Lunch & Dinner</li>
             <li className="flex items-center before:content-['·'] before:mr-3 before:text-[var(--color-gold)] before:text-2xl">Special Dietary Menus (Pure Veg / Jain available)</li>
           </ul>

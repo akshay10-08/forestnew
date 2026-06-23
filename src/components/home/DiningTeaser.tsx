@@ -36,7 +36,7 @@ export function DiningTeaser() {
           <div className="w-12 h-[1px] bg-[var(--color-gold)] mb-8" />
           
           <p className="text-[var(--color-muted)] leading-relaxed mb-6">
-            From relaxed poolside lunches to grand wedding banquets, our multi-cuisine offerings are crafted to delight. We cater to every palate, offering everything from local delicacies to international favorites.
+            From relaxed poolside lunches to grand outdoor celebrations, our multi-cuisine offerings are crafted to delight. We cater to every palate, offering everything from local delicacies to international favorites.
           </p>
           <p className="text-[var(--color-muted)] leading-relaxed mb-10 font-medium">
             Request a custom menu & quote for your special events.

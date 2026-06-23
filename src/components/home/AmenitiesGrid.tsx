@@ -10,14 +10,12 @@ export function AmenitiesGrid() {
     { icon: Wifi, label: "Free WiFi" },
     { icon: BellRing, label: "Room Service" },
     { icon: Sparkles, label: "Daily Housekeeping" },
-    { icon: Coffee, label: "Complimentary Breakfast" },
     { icon: Utensils, label: "In-House Dining" },
     { icon: Flower2, label: "Landscaped Gardens" },
     { icon: Car, label: "Ample Parking" },
     { icon: Zap, label: "Power Backup" },
     { icon: Smile, label: "Kids-Friendly" },
     { icon: Tent, label: "Open-Air Lawns" },
-    { icon: Sparkles, label: "Indoor Banquet" },
   ];
 
   return (

@@ -17,7 +17,7 @@ const SERVICES = [
   },
   {
     icon: <Coffee size={24} />,
-    title: "Breakfast Among the Gardens",
+    title: "Dining Among the Gardens",
     description: "Start your day with fresh morning air."
   },
   {

@@ -13,7 +13,6 @@ const PACKAGES = [
     image: "/images/c.png", // [Package Image 1]
     inclusions: [
       "1 Night Stay",
-      "Complimentary Breakfast",
       "Pool Access",
       "Late Check-out"
     ]
@@ -25,7 +24,6 @@ const PACKAGES = [
     image: "/images/a.png", // [Package Image 2]
     inclusions: [
       "Premium Cottage",
-      "Family Breakfast",
       "Kids-Friendly Amenities",
       "Nature Walk"
     ]

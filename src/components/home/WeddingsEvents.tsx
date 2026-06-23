@@ -26,7 +26,7 @@ export function WeddingsEvents() {
             <div className="w-12 h-[1px] bg-[var(--color-gold)] mb-8" />
             
             <p className="text-[var(--color-muted)] leading-relaxed mb-6">
-              Celebrate life's biggest moments surrounded by nature. From intimate gatherings to grand celebrations of 400+ guests, our open-air lawns under the trees and elegant indoor banquets provide the perfect backdrop.
+              Celebrate life's biggest moments surrounded by nature. From intimate gatherings to grand celebrations of 400+ guests, our open-air lawns under the trees provide the perfect backdrop.
             </p>
             <p className="text-[var(--color-muted)] leading-relaxed mb-10">
               With garden cottages for your guests, you can host a true destination wedding without ever leaving Kanpur.

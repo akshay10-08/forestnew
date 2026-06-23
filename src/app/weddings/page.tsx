@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata = {
   title: "Weddings & Events | Royal Forest Resort",
-  description: "Host your dream destination wedding in Kanpur. We offer grand open-air lawns, elegant banquets, and customized catering for events of all sizes."
+  description: "Host your dream destination wedding in Kanpur. We offer grand open-air lawns and customized catering for events of all sizes."
 };
 
 export default function WeddingsOverviewPage() {

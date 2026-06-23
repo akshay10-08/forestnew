@@ -82,7 +82,7 @@ export default function Home() {
       {
         "@type": "EventVenue",
         "name": "Royal Forest Resort Weddings & Events",
-        "description": "Grand open-air lawns and elegant banquets for destination weddings.",
+        "description": "Grand open-air lawns for destination weddings and celebrations.",
         "url": "https://royalforestresort.com/weddings",
         "address": {
           "@type": "PostalAddress",

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Placeholder } from "@/components/ui/Placeholder";
 import Link from "next/link";
-import { ArrowRight, Wifi, Wind, Bath, Coffee, BedDouble, Users, Maximize, Clock, Image as ImageIcon } from "lucide-react";
+import { ArrowRight, Wifi, Wind, Bath, BedDouble, Users, Maximize, Clock, Image as ImageIcon } from "lucide-react";
 import { openWhatsApp } from "@/lib/whatsapp";
 
 export function CottagesShowcase() {
@@ -16,12 +16,10 @@ export function CottagesShowcase() {
       occupancy: "Sleeps 2",
       bed: "1 King Bed",
       size: "400 sq.ft",
-      rate: "From ₹[rate]/night",
       amenities: [
         { icon: <Wind size={14} />, label: "AC" },
         { icon: <Wifi size={14} />, label: "Free WiFi" },
         { icon: <Bath size={14} />, label: "Ensuite Bath" },
-        { icon: <Coffee size={14} />, label: "Breakfast" },
       ],
       imageLabel: "Room Interior - made bed",
       image: "/images/x.png"
@@ -34,12 +32,10 @@ export function CottagesShowcase() {
       occupancy: "Sleeps 2-4",
       bed: "1 King Bed + Sofa Bed",
       size: "600 sq.ft",
-      rate: "From ₹[rate]/night",
       amenities: [
         { icon: <Wind size={14} />, label: "AC" },
         { icon: <Wifi size={14} />, label: "Free WiFi" },
         { icon: <Bath size={14} />, label: "Ensuite Bath" },
-        { icon: <Coffee size={14} />, label: "Breakfast" },
       ],
       imageLabel: "Premium Cottage Interior",
       image: "/images/w.jpeg"
@@ -106,7 +102,6 @@ export function CottagesShowcase() {
               <div className="flex flex-col flex-1 px-2">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="font-serif text-3xl text-[var(--color-forest)]">{cottage.name}</h3>
-                  <span className="text-[var(--color-gold)] font-medium text-lg whitespace-nowrap">{cottage.rate}</span>
                 </div>
                 <span className="text-[var(--color-muted)] text-sm italic mb-4 block">{cottage.desc}</span>
                 

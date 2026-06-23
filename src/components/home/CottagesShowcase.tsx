@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Placeholder } from "@/components/ui/Placeholder";
 import Link from "next/link";
-import { ArrowRight, Wifi, Wind, Bath, BedDouble, Users, Maximize, Clock, Image as ImageIcon } from "lucide-react";
+import { ArrowRight, Wifi, Wind, Bath, Coffee, BedDouble, Users, Maximize, Clock, Image as ImageIcon } from "lucide-react";
 import { openWhatsApp } from "@/lib/whatsapp";
 
 export function CottagesShowcase() {

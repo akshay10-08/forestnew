@@ -31,18 +31,18 @@ export function MultiChannelFloat() {
             </div>
           </a>
           
-          {/* Enquire */}
-          <button 
-            type="button"
-            onClick={() => openWhatsApp(`Hello Royal Forest Resort,\n\nI'd like to enquire about your venue.\n\nName: \nDate: \nGuests: \n\nThank you.`)}
-            className="flex items-center space-x-3 group justify-end">
-            <span className="bg-[var(--color-ivory)] text-[var(--color-forest)] px-3 py-1 rounded-md text-sm opacity-0 group-hover:opacity-100 transition-opacity shadow-sm">
-              Enquire
+          {/* Email */}
+          <a
+            href={`mailto:${RESORT_FACTS.email}`}
+            className="flex items-center space-x-3 group justify-end"
+          >
+            <span className="bg-[var(--color-ivory)] text-[var(--color-forest)] px-3 py-1 rounded-md text-sm opacity-0 group-hover:opacity-100 transition-opacity shadow-sm whitespace-nowrap">
+              {RESORT_FACTS.email}
             </span>
-            <div className="w-12 h-12 rounded-full bg-[var(--color-forest)]/70 backdrop-blur-md border border-[var(--color-gold)]/40 flex items-center justify-center text-[var(--color-gold)] hover:bg-[var(--color-forest)] transition-colors">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[var(--color-gold)] to-[#B8860B] shadow-lg border border-[var(--color-gold)]/60 flex items-center justify-center text-white hover:scale-110 transition-all duration-300">
               <Mail size={20} />
             </div>
-          </button>
+          </a>
         </div>
 
         {/* Premium Pill 'Book Now' Base Button */}
@@ -82,13 +82,13 @@ export function MultiChannelFloat() {
           <MessageCircle size={18} className="mb-1 text-[#25D366]" />
           <span className="text-[10px] uppercase tracking-wider">WhatsApp</span>
         </button>
-        <button 
-          type="button"
-          onClick={() => openWhatsApp(`Hello Royal Forest Resort,\n\nI'd like to enquire about your venue.\n\nName: \nDate: \nGuests: \n\nThank you.`)}
-          className="flex-1 flex flex-col items-center justify-center text-[var(--color-ivory)]">
+        <a
+          href={`mailto:${RESORT_FACTS.email}`}
+          className="flex-1 flex flex-col items-center justify-center text-[var(--color-ivory)]"
+        >
           <Mail size={18} className="mb-1 text-[var(--color-gold)]" />
-          <span className="text-[10px] uppercase tracking-wider">Enquire</span>
-        </button>
+          <span className="text-[10px] uppercase tracking-wider">Email</span>
+        </a>
       </div>
     </>
   );

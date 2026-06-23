@@ -12,7 +12,7 @@ export const RESORT_FACTS = {
   whatsappLink: "https://wa.me/919795766766",
   instagram: "https://www.instagram.com/royalforestresortknp/",
   facebook: "https://www.facebook.com/profile.php?id=61589169937314",
-  email: "info@royalforestresort.com",
+  email: "grouppassion1@gmail.com",
   hours: "[confirm hours]", // TODO: confirm hours
   rating: "[Live Google Rating]", // TODO: Wire live rating
   reviewCount: "[Live Google Review Count]", // TODO: Wire live review count

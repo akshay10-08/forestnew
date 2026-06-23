@@ -55,7 +55,7 @@ export function Footer() {
             </li>
             <li className="flex items-center">
               <Mail size={18} className="mr-3 flex-shrink-0 text-[var(--color-gold)]" />
-              <span>{RESORT_FACTS.email}</span>
+              <a href={`mailto:${RESORT_FACTS.email}`} className="hover:text-[var(--color-gold)] transition-colors break-all">{RESORT_FACTS.email}</a>
             </li>
           </ul>
         </div>

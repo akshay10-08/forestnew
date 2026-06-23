@@ -32,6 +32,24 @@ export function FinalCTA() {
             Enquire on WhatsApp
           </a>
         </div>
+
+        {/* Premium Email Strip */}
+        <motion.a
+          href={`mailto:${RESORT_FACTS.email}`}
+          className="mt-10 flex items-center gap-3 bg-white/10 backdrop-blur-md border border-[var(--color-gold)]/40 px-8 py-4 rounded-full text-[var(--color-ivory)] hover:bg-white/20 hover:border-[var(--color-gold)] transition-all group shadow-lg"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-[var(--color-gold)] flex-shrink-0">
+            <rect width="20" height="16" x="2" y="4" rx="2"/>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+          <span className="text-xs uppercase tracking-[0.2em] text-[var(--color-gold)] font-semibold">Email Us</span>
+          <span className="w-[1px] h-4 bg-white/30" />
+          <span className="text-sm font-medium tracking-wide group-hover:text-[var(--color-gold)] transition-colors">{RESORT_FACTS.email}</span>
+        </motion.a>
       </motion.div>
     </section>
   );

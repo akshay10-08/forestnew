@@ -17,6 +17,7 @@ export function MultiChannelFloat() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
+        {/* Hover-only: Call button */}
         <div className={clsx(
           "flex flex-col space-y-3 transition-all duration-300 origin-bottom",
           isHovered ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-90 translate-y-10 pointer-events-none"
@@ -30,20 +31,20 @@ export function MultiChannelFloat() {
               <Phone size={20} />
             </div>
           </a>
-          
-          {/* Email */}
-          <a
-            href={`mailto:${RESORT_FACTS.email}`}
-            className="flex items-center space-x-3 group justify-end"
-          >
-            <span className="bg-[var(--color-ivory)] text-[var(--color-forest)] px-3 py-1 rounded-md text-sm opacity-0 group-hover:opacity-100 transition-opacity shadow-sm whitespace-nowrap">
-              {RESORT_FACTS.email}
-            </span>
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[var(--color-gold)] to-[#B8860B] shadow-lg border border-[var(--color-gold)]/60 flex items-center justify-center text-white hover:scale-110 transition-all duration-300">
-              <Mail size={20} />
-            </div>
-          </a>
         </div>
+
+        {/* Always Visible: Email Button */}
+        <a
+          href={`mailto:${RESORT_FACTS.email}`}
+          className="flex items-center space-x-3 group justify-end"
+        >
+          <span className="bg-[var(--color-ivory)] text-[var(--color-forest)] px-3 py-1 rounded-md text-sm opacity-0 group-hover:opacity-100 transition-opacity shadow-sm whitespace-nowrap">
+            {RESORT_FACTS.email}
+          </span>
+          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[var(--color-gold)] to-[#B8860B] shadow-[0_4px_15px_rgba(194,162,78,0.5)] border border-[var(--color-gold)]/60 flex items-center justify-center text-white hover:scale-110 transition-all duration-300">
+            <Mail size={20} />
+          </div>
+        </a>
 
         {/* Premium Pill 'Book Now' Base Button */}
         <button 
@@ -68,6 +69,16 @@ export function MultiChannelFloat() {
           </span>
         </button>
       </div>
+
+
+      {/* Mobile Floating Email Pill - above sticky bar */}
+      <a
+        href={`mailto:${RESORT_FACTS.email}`}
+        className="md:hidden fixed bottom-[72px] right-4 z-50 flex items-center gap-2 bg-gradient-to-r from-[var(--color-gold)] to-[#B8860B] text-white px-4 py-2.5 rounded-full shadow-[0_4px_15px_rgba(194,162,78,0.5)] border border-[var(--color-gold)]/60"
+      >
+        <Mail size={16} />
+        <span className="text-[10px] font-semibold tracking-widest uppercase">Email Us</span>
+      </a>
 
       {/* Mobile Sticky Bar */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[var(--color-forest)] border-t border-[var(--color-gold)]/30 px-2 py-3 flex justify-between items-center pb-safe">

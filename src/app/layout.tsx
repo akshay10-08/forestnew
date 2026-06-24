@@ -20,8 +20,31 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Royal Forest Resort - Luxury Nature Resort & Stay in Kanpur (Mandhana, Bithoor Road)",
-  description: "A premium nature resort on Bithoor Road, Kanpur - garden cottages, one of Kanpur's largest pools, and serene stays.",
+  metadataBase: new URL("https://www.royalforestresort.in"),
+  title: "Royal Forest Resort | Luxury Nature Resort & Stay in Kanpur",
+  description: "A premium nature resort on Bithoor Road, Kanpur featuring luxury cottages, one of Kanpur's largest pools, wedding venues, events, and serene stays.",
+  openGraph: {
+    title: "Royal Forest Resort | Luxury Nature Resort & Stay in Kanpur",
+    description: "A premium nature resort on Bithoor Road, Kanpur featuring luxury cottages, one of Kanpur's largest pools, wedding venues, events, and serene stays.",
+    url: "https://www.royalforestresort.in",
+    siteName: "Royal Forest Resort",
+    images: [
+      {
+        url: "https://www.royalforestresort.in/images/ab.png",
+        width: 1200,
+        height: 630,
+        alt: "Royal Forest Resort | Luxury Nature Resort & Stay in Kanpur",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Royal Forest Resort | Luxury Nature Resort & Stay in Kanpur",
+    description: "A premium nature resort on Bithoor Road, Kanpur featuring luxury cottages, one of Kanpur's largest pools, wedding venues, events, and serene stays.",
+    images: ["https://www.royalforestresort.in/images/ab.png"],
+  },
 };
 
 export const viewport: Viewport = {

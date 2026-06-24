@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Royal Forest Resort",
     images: [
       {
-        url: "https://www.royalforestresort.in/images/ab.png",
+        url: "https://www.royalforestresort.in/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Royal Forest Resort | Luxury Nature Resort & Stay in Kanpur",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Royal Forest Resort | Luxury Nature Resort & Stay in Kanpur",
     description: "A premium nature resort on Bithoor Road, Kanpur featuring luxury cottages, one of Kanpur's largest pools, wedding venues, events, and serene stays.",
-    images: ["https://www.royalforestresort.in/images/ab.png"],
+    images: ["https://www.royalforestresort.in/images/og-image.jpg"],
   },
 };
 
